@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID" version="2.4">
+  <welcome-file-list>
+  <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+    <servlet-name>Api</servlet-name>
+    <servlet-class>com.user.details.Api</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Api</servlet-name>
+    <url-pattern>/details</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AllUsers</servlet-name>
+    <servlet-class>com.user.details.AllUsers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AllUsers</servlet-name>
+    <url-pattern>/AllUsers</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Delete</display-name>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>com.user.details.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+</web-app>
