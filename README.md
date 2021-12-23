@@ -2,7 +2,7 @@
 
 Note :
 
-Before using this files make to follow the below given instructions/commands in your MYSQL server
+Before using this files make sure to follow the below given instructions/commands in your MYSQL server
 
 1. Create a Database.<br>
     Command to create database in MYSQL<br> 
